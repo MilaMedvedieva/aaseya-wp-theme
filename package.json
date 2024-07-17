@@ -1,0 +1,25 @@
+{
+  "name": "aaseya-wp-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel watch static/src/js/main.js -d static/dist --public-url /wp-content/themes/aaseya-wp-theme2/static/dist/",
+    "build": "parcel build static/src/js/main.js -d static/dist --public-url /wp-content/themes/aaseya-wp-theme2/static/dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
+    "jquery-match-height": "^0.7.2",
+    "js-datepicker": "^5.18.0",
+    "popper.js": "^1.16.1",
+    "swiper": "^6.5.7"
+  },
+  "devDependencies": {
+    "less": "^4.1.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
